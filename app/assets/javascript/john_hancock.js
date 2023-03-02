@@ -13,7 +13,7 @@ document.addEventListener('DOMContentLoaded', function(){
     }
 
     function resizeCanvas() {
-      var ratio =  Math.max(window.devicePixelRatio || 2, 1);
+      var ratio =  Math.max(window.devicePixelRatio || 3, 1);
       canvas.width = canvas.offsetWidth * ratio;
       canvas.height = canvas.offsetHeight * ratio;
       canvas.getContext("2d").scale(ratio, ratio);

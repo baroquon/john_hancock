@@ -1,6 +1,6 @@
 //= require signature_pad
 
-document.addEventListener('DOMContentLoaded', function(){
+document.addEventListener('turbolinks:load', function(){
   const canvas = document.getElementById("JohnHancock-canvas");
   const hidden_field = document.getElementById("JohnHancock-hidden");
 
